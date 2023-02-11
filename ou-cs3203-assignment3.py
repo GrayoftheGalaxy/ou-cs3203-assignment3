@@ -10,6 +10,10 @@ def calculateProduct(numbers):
         product = product * x
     return product
 
+def reverseList(numbers):
+    numbers.reverse()
+    return numbers
+
 print("Hello User! \nThis program will calculate the sum & product of a list of numbers you enter. \nThis list will be 5 integers long.\n")
 
 numberList = []
@@ -19,4 +23,5 @@ for x in range(5):
 
 print("The sum is " + str(calculateSum(numberList)) + ".")
 print("The product is " + str(calculateProduct(numberList)) + ".")
+print("The list reversed is " + str(reverseList(numberList)))
     
