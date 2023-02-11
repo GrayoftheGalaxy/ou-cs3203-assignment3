@@ -23,5 +23,4 @@ for x in range(5):
 
 print("The sum is " + str(calculateSum(numberList)) + ".")
 print("The product is " + str(calculateProduct(numberList)) + ".")
-print("The list reversed is " + str(reverseList(numberList)))
-    
+print("The list reversed is " + str(reverseList(numberList)))    
