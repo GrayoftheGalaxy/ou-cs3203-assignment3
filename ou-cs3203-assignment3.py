@@ -23,4 +23,11 @@ for x in range(5):
 
 print("The sum is " + str(calculateSum(numberList)) + ".")
 print("The product is " + str(calculateProduct(numberList)) + ".")
+<<<<<<< HEAD
 print("The list reversed is " + str(reverseList(numberList)))    
+=======
+
+#Hey Professor Nicolas! I'm just making some changes here, I figured a
+#comment would work.
+    
+>>>>>>> f43a5c5 (Part 10: Made changes for new branch)
